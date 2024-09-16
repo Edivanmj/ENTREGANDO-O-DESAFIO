@@ -1,0 +1,114 @@
+/* Estilos gerais do corpo */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  overflow-x: hidden; /* Evita scroll horizontal */
+  background-color: #2c3e50; /* Cor de fundo escura para contraste */
+}
+
+/* Estilos para a tela de introdução */
+#intro-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("background.gif"); /* Caminho para o GIF */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#intro-content {
+  background: rgba(0, 0, 0, 0.7); /* Fundo escuro semi-transparente */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#start-button {
+  padding: 15px 25px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #27ae60;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#start-button:hover {
+  background-color: #2ecc71;
+  transform: scale(1.05);
+}
+
+/* Estilos para o conteúdo principal */
+#main-content {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: #34495e; /* Cor de fundo mais clara */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #ecf0f1; /* Cor do título */
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+input,
+select {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #95a5a6;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.error {
+  color: #e74c3c;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 10px;
+}
+#img {
+  background-size: cover;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Análise de Recintos</title>
+    <link rel="stylesheet" href="styl2es.css" />
+  </head>
+  <body>
+    <!-- Tela de introdução -->
+    <div id="intro-screen">
+      <div id="intro-content">
+        <h1>Bem-vindo ao codigo!!</h1>
+        <button id="start-button">Começar</button>
+      </div>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div id="main-content" style="display: none">
+      <h1>Análise de Recintos</h1>
+      <form id="form">
+        <label for="tipoAnimal">Tipo de Animal:</label>
+        <select id="tipoAnimal" name="tipoAnimal" required>
+          <!-- Options will be populated by JavaScript -->
+        </select>
+
+        <label for="quantidade">Quantidade:</label>
+        <input
+          type="number"
+          id="quantidade"
+          name="quantidade"
+          min="1"
+          required
+        />
+
+        <button type="submit">Analisar</button>
+      </form>
+      <p id="results"></p>
+    </div>
+
+    <script src="scri2pt.js" defer></script>
+  </body>
+</html>
